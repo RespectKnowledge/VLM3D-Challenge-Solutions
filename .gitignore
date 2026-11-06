@@ -1,0 +1,32 @@
+# Datasets and patient metadata
+*.csv
+*.nii
+*.nii.gz
+*.dcm
+*.parquet
+
+# Model checkpoints and embeddings
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.npy
+*.npz
+
+# Docker archives
+*.tar
+*.tar.gz
+
+# Python and local environments
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+wandb/
+logs/
+outputs/
+checkpoints/
+weights/
+hf-cache/
